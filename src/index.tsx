@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 
 import { App } from './App';
 
+import './services/mirage';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
